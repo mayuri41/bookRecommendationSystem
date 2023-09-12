@@ -26,8 +26,6 @@ def fetch_poster(suggestion):
 
     return poster_url
 
-
-
 def recommend_book(book_name):
     books_list = []
     book_id = np.where(book_pivot.index == book_name)[0][0]
@@ -40,8 +38,6 @@ def recommend_book(book_name):
             for j in books:
                 books_list.append(j)
     return books_list , poster_url       
-
-
 
 selected_books = st.selectbox(
     "Type or select a book from the dropdown",
@@ -67,3 +63,4 @@ if st.button('Show Recommendation'):
     with col5:
         st.text(recommended_books[5])
         st.image(poster_url[5])
+        

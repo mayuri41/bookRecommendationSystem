@@ -15,7 +15,7 @@ setup(
     description="A small package for Book Recommender System",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/mayuri41/BookRecommenderSystem.git",
+    url=f"https://github.com/mayuri41/bookRecommendationSystem.git",
     author_email="surwasemayuri41@gmail.com",
     packages=[SRC_REPO],
     license="MIT",
